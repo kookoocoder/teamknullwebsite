@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PixellLab - Experience Top-Tier Designs",
-  description: "Get high-quality, customized designs whenever you need them. No limits, no hassle. From web design to branding, we deliver creative solutions that elevate your brand.",
+  title: "WebForge - Building Innovative Web Solutions",
+  description: "Get expert web development services tailored to your needs. No limits, no hassle. From websites to full-stack applications, we deliver innovative solutions that elevate your online presence.",
 };
 
 export default function RootLayout({

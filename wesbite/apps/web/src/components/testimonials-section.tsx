@@ -8,57 +8,30 @@ import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: "Emily Carter",
-    role: "Founder of Blossom Beauty",
-    company: "Blossom Beauty",
-    rating: 5,
-    text: "Working with this design team has been a game-changer for our brand. Their creative vision and attention to detail have elevated our online presence and brought our brand to life.",
-    avatar: "EC"
-  },
-  {
-    id: 2,
-    name: "Sarah Thompson", 
-    role: "CEO of GreenLeaf",
-    company: "GreenLeaf",
-    rating: 5,
-    text: "Working with this design team has been a game-changer for our brand. Their creative vision and attention to detail have elevated our online presence and brought our brand to life.",
-    avatar: "ST"
-  },
-  {
-    id: 3,
     name: "Alex Kim",
     role: "COO of TechFlow",
     company: "TechFlow",
     rating: 5,
-    text: "The motion designs created by this team have brought our promotional videos to life. The animations are engaging and professional, capturing our brand perfectly.",
+    text: "The custom web app developed by this team has revolutionized our operations. It's scalable, secure, and perfectly aligned with our business goals.",
     avatar: "AK"
   },
   {
-    id: 4,
-    name: "Michael Lee",
-    role: "Creative Director at Apex Advertising",
-    company: "Apex Advertising",
+    id: 2,
+    name: "Emily Carter", 
+    role: "CEO of Blossom Beauty",
+    company: "Blossom Beauty",
     rating: 5,
-    text: "The custom illustrations and graphics have added a unique flair to our marketing materials. We couldn't be happier with the results and the impact they've had on our campaigns.",
-    avatar: "ML"
+    text: "Working with this development team has been a game-changer for our brand. Their creative coding and attention to detail have elevated our online presence.",
+    avatar: "EC"
   },
   {
-    id: 5,
-    name: "David Reynolds",
-    role: "Marketing Director at Tech Innovators",
-    company: "Tech Innovators",
+    id: 3,
+    name: "Sarah Thompson",
+    role: "Founder of GreenLeaf",
+    company: "GreenLeaf",
     rating: 5,
-    text: "The logo and branding services we received were exceptional. The team took our ideas and transformed them into a cohesive and striking brand identity that has resonated with our audience.",
-    avatar: "DR"
-  },
-  {
-    id: 6,
-    name: "Jonathan Perez",
-    role: "Owner of Coastal Ventures",
-    company: "Coastal Ventures",
-    rating: 5,
-    text: "The graphic design services provided have been outstanding. Every piece they create is visually striking and aligned perfectly with our brand's message. We've received numerous compliments from our customers.",
-    avatar: "JP"
+    text: "Their full-stack expertise brought our e-commerce platform to life with seamless integrations and top-notch performance.",
+    avatar: "ST"
   }
 ];
 
@@ -146,14 +119,14 @@ export default function TestimonialsSection() {
               className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 border border-purple-500/30 rounded-full text-sm text-purple-300 mb-6"
             >
               <Quote size={16} />
-              Testimonials
+              99 Testimonials
             </motion.div>
             
             <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-6">
               What Our Clients Are Saying
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Discover how our design solutions have transformed businesses and brought visions to life through our clients' experiences.
+              Discover how our web development solutions have transformed businesses and brought digital visions to life through our clients' experiences.
             </p>
           </motion.div>
 

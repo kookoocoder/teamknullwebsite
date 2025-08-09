@@ -164,13 +164,13 @@ export default function AboutSection() {
             {/* Content */}
             <motion.div variants={itemVariants} className="space-y-6">
               <h3 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                Discover how our design solutions have transformed businesses and brought visions to life through our clients' experiences.
+                Discover how our web development solutions have transformed businesses and brought digital visions to life through our clients' experiences.
               </h3>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                Our membership comes with the promise of endless creativity and dedicated support. 
-                We deliver custom, one-of-a-kind designs tailored specifically for your brand, 
-                ensuring your projects stay on track with fast delivery and unlimited revisions.
+                Our membership comes with the promise of endless innovation and dedicated support. 
+                We deliver custom, cutting-edge web applications tailored specifically for your business, 
+                ensuring your projects stay on track with fast deployment and unlimited iterations.
               </p>
 
               <div className="grid grid-cols-2 gap-6 pt-6">
@@ -179,15 +179,15 @@ export default function AboutSection() {
                     <div className="w-2 h-2 bg-purple-500 rounded-full" />
                     <span className="text-white font-medium">Unlimited Requests</span>
                   </div>
-                  <p className="text-gray-400 text-sm">No limits on design requests</p>
+                  <p className="text-gray-400 text-sm">No limits on development requests</p>
                 </div>
                 
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-cyan-500 rounded-full" />
-                    <span className="text-white font-medium">Fast Delivery</span>
+                    <span className="text-white font-medium">Fast Deployment</span>
                   </div>
-                  <p className="text-gray-400 text-sm">Quick turnaround times</p>
+                  <p className="text-gray-400 text-sm">Quick development cycles</p>
                 </div>
               </div>
             </motion.div>

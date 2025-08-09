@@ -67,7 +67,7 @@ export default function HeroSection() {
             className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 border border-purple-500/30 rounded-full text-sm text-purple-300 mb-8"
           >
             <Sparkles size={16} className="animate-pulse" />
-            Experience Top-Tier Designs with PixellLab
+            Building Innovative Web Solutions
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
           </motion.div>
 
@@ -78,7 +78,7 @@ export default function HeroSection() {
                 variants={wordVariants}
                 className="text-5xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent leading-tight"
               >
-                Crafting Digital
+                Building Innovative
               </motion.h1>
             </motion.div>
             
@@ -87,7 +87,7 @@ export default function HeroSection() {
                 variants={wordVariants}
                 className="text-5xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent leading-tight"
               >
-                Experiences
+                Web Solutions
               </motion.h1>
             </motion.div>
           </div>
@@ -97,7 +97,7 @@ export default function HeroSection() {
             variants={textVariants}
             className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Get high-quality, customized designs whenever you need them.
+            Get expert web development services tailored to your needs.
             <br />
             <span className="text-purple-400 font-medium">No limits, no hassle.</span>
           </motion.p>
@@ -111,7 +111,7 @@ export default function HeroSection() {
               onClick={() => document.querySelector('#portfolio')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 interactive"
             >
-              View Our Work
+              View Our Projects
               <motion.div
                 animate={{ x: [0, 5, 0] }}
                 transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
@@ -135,7 +135,7 @@ export default function HeroSection() {
             variants={textVariants}
             className="flex items-center justify-center gap-8 opacity-60"
           >
-            {['Logoipsum', 'Logoipsum', 'Logoipsum', 'Logoipsum'].map((logo, index) => (
+            {['ProjectX', 'InnovateWeb', 'DevHub', 'CodeMasters'].map((logo, index) => (
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.1, opacity: 1 }}

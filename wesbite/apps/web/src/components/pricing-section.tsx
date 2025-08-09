@@ -15,8 +15,8 @@ const plans = [
       "Unlimited requests",
       "One request at a time", 
       "Average 48 hour delivery",
-      "Unlimited revisions",
-      "Framer development",
+      "Unlimited iterations",
+      "Full-stack development",
       "Unlimited meetings",
       "Slack channel",
       "Cancel anytime"
@@ -28,13 +28,13 @@ const plans = [
     name: "Pro", 
     price: "$3600",
     period: "Per month",
-    description: "Most popular plan for growing businesses",
+    description: "Most optimal plan for growing businesses",
     features: [
       "Unlimited requests",
       "One request at a time",
       "Average 48 hour delivery", 
-      "Unlimited revisions",
-      "Framer development",
+      "Unlimited iterations",
+      "Full-stack development",
       "Weekly meetings",
       "Slack Channel",
       "Cancel anytime"
@@ -49,10 +49,10 @@ const plans = [
     description: "For large teams and complex projects",
     features: [
       "Unlimited requests",
-      "Multiple request at a time",
+      "Multiple requests at a time",
       "Same day delivery",
       "Dedicated account manager",
-      "Dedicated designer",
+      "Dedicated developer",
       "Regular meetings",
       "Business Consulting",
       "Cancel anytime"
@@ -116,7 +116,7 @@ export default function PricingSection() {
               Plans To Suits Your Needs
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Explore our flexible pricing options to find the best fit for your business and elevate your brand with our comprehensive design services.
+              Explore our flexible pricing options to find the best fit for your business and elevate your online presence with our comprehensive web development services.
             </p>
           </motion.div>
 
@@ -205,7 +205,7 @@ export default function PricingSection() {
             className="text-center mt-12"
           >
             <p className="text-gray-400 text-sm max-w-2xl mx-auto">
-              All plans include unlimited revisions and the flexibility to pause or cancel your subscription at any time. 
+              All plans include unlimited iterations and the flexibility to pause or cancel your subscription at any time. 
               Need something custom? We'd love to discuss your specific requirements.
             </p>
           </motion.div>

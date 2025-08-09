@@ -315,8 +315,8 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="text-white font-semibold mb-1">Email</h4>
-                      <p className="text-gray-400">hello@pixellab.com</p>
-                      <p className="text-gray-400">support@pixellab.com</p>
+                      <p className="text-gray-400">hello@webforge.com</p>
+                      <p className="text-gray-400">support@webforge.com</p>
                     </div>
                   </div>
 

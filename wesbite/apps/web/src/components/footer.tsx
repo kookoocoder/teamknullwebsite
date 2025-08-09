@@ -16,10 +16,10 @@ import {
 
 const footerLinks = {
   services: [
-    { name: 'Web Design', href: '#services' },
-    { name: 'Mobile Apps', href: '#services' },
-    { name: 'Branding', href: '#services' },
+    { name: 'Websites', href: '#services' },
+    { name: 'Web Apps', href: '#services' },
     { name: 'E-commerce', href: '#services' },
+    { name: 'Custom Dev', href: '#services' },
   ],
   company: [
     { name: 'About Us', href: '#about' },
@@ -104,23 +104,23 @@ export default function Footer() {
               <motion.div variants={itemVariants} className="lg:col-span-2">
                 <div className="flex items-center space-x-2 mb-6">
                   <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-xl">P</span>
+                    <span className="text-white font-bold text-xl">W</span>
                   </div>
                   <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                    PixellLab
+                    WebForge
                   </h3>
                 </div>
                 
                 <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
-                  We create stunning digital experiences that help businesses grow and connect with their audiences. 
-                  From web design to branding, we bring your vision to life.
+                  We create innovative web solutions that help businesses grow and connect with their audiences. 
+                  From websites to full-stack applications, we bring your digital vision to life.
                 </p>
 
                 {/* Contact Info */}
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-gray-400">
                     <Mail size={16} className="text-purple-400" />
-                    <span>hello@pixellab.com</span>
+                    <span>hello@webforge.com</span>
                   </div>
                   <div className="flex items-center gap-3 text-gray-400">
                     <Phone size={16} className="text-purple-400" />
@@ -237,7 +237,7 @@ export default function Footer() {
           >
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="text-gray-400 text-sm">
-                © 2024 PixellLab. All rights reserved.
+                © 2024 WebForge. All rights reserved.
               </div>
               
               <div className="flex items-center gap-6">

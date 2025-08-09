@@ -6,61 +6,61 @@ import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Eye, X } from 'lucide-react';
 import { Button } from './ui/button';
 
-const categories = ['All', 'Web Design', 'Mobile Apps', 'Branding', 'E-commerce'];
+const categories = ['All', 'Websites', 'Web Apps', 'E-commerce', 'Custom Dev', 'APIs'];
 
 const projects = [
   {
     id: 1,
-    title: "Autogenesis Platform",
-    category: "Web Design",
-    description: "Revolutionize your visuals. Enter the world of Autogenesis.",
+    title: "E-Learning Platform",
+    category: "Websites",
+    description: "Interactive educational platform with modern learning features.",
     image: "/api/placeholder/600/400",
     tags: ["React", "Next.js", "Tailwind"],
     featured: true
   },
   {
     id: 2,
-    title: "Blockchain Innovation",
-    category: "Web Design", 
-    description: "Ignite Your Blockchain Innovations with cutting-edge technology.",
+    title: "FinTech Dashboard", 
+    description: "Advanced financial analytics and trading dashboard.",
+    category: "Web Apps",
     image: "/api/placeholder/600/400",
     tags: ["Vue.js", "Web3", "DeFi"],
     featured: true
   },
   {
     id: 3,
-    title: "Corporate Dashboard",
-    category: "Web Design",
-    description: "Innovate. Disrupt. Dominate. Modern corporate solutions.",
+    title: "SaaS Analytics Tool",
+    category: "Custom Dev",
+    description: "Custom analytics solution for enterprise clients.",
     image: "/api/placeholder/600/400",
-    tags: ["Dashboard", "Analytics", "SaaS"],
+    tags: ["Angular", "Dashboard", "Analytics", "SaaS"],
     featured: false
   },
   {
     id: 4,
-    title: "Mobile Banking App",
-    category: "Mobile Apps",
-    description: "Secure and intuitive mobile banking experience.",
+    title: "Mobile-Responsive Store",
+    category: "E-commerce",
+    description: "High-performance e-commerce platform with mobile optimization.",
     image: "/api/placeholder/600/400",
-    tags: ["React Native", "FinTech", "Security"],
+    tags: ["Shopify", "Payment", "Mobile"],
     featured: true
   },
   {
     id: 5,
-    title: "E-commerce Platform",
-    category: "E-commerce",
-    description: "Complete online shopping solution with modern design.",
+    title: "API Integration Hub",
+    category: "APIs",
+    description: "Comprehensive API management and integration platform.",
     image: "/api/placeholder/600/400",
-    tags: ["Shopify", "Payment", "Mobile"],
+    tags: ["Node.js", "RESTful", "Security"],
     featured: false
   },
   {
     id: 6,
-    title: "Brand Identity Design",
-    category: "Branding",
-    description: "Complete brand identity for a tech startup.",
+    title: "Corporate Portal",
+    category: "Websites",
+    description: "Enterprise-grade corporate website with CMS integration.",
     image: "/api/placeholder/600/400",
-    tags: ["Logo", "Guidelines", "Print"],
+    tags: ["WordPress", "CMS", "Enterprise"],
     featured: false
   }
 ];
@@ -122,10 +122,10 @@ export default function PortfolioSection() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-6">
-              One Stop Design Solution
+              One Stop Web Development Solution
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-8">
-              From web design to branding, our expert team delivers creative solutions that elevate your brand and captivate your audience.
+              From website creation to full-stack applications, our expert team delivers innovative solutions that elevate your online presence and engage your audience.
             </p>
 
             {/* Category Filters */}

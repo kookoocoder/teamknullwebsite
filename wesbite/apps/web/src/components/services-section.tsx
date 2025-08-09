@@ -16,44 +16,44 @@ import {
 const services = [
   {
     icon: Search,
-    title: "Unlimited Request",
-    description: "Make as many design requests as you need without any limits.",
+    title: "Unlimited Requests",
+    description: "Make as many development requests as you need without any limits.",
     features: ["No Request Limits", "Queue Management", "Priority System", "24/7 Submission"],
     gradient: "from-purple-500 to-pink-500"
   },
   {
     icon: Palette,
-    title: "Unique Designs",
-    description: "Stand out with custom, one-of-a-kind designs tailored specifically for your brand.",
-    features: ["Custom Design", "Brand Aligned", "Original Work", "Multiple Concepts"],
+    title: "Unique Solutions",
+    description: "Stand out with custom, one-of-a-kind web solutions tailored specifically for your business.",
+    features: ["Custom Development", "Business Aligned", "Original Code", "Multiple Prototypes"],
     gradient: "from-cyan-500 to-blue-500"
   },
   {
     icon: Smartphone,
     title: "Fast Delivery",
-    description: "Get your designs quickly and efficiently, ensuring your projects stay on track.",
+    description: "Get your web projects quickly and efficiently, ensuring your initiatives stay on track.",
     features: ["48hr Average", "Rush Options", "Quick Turnaround", "Efficient Workflow"],
     gradient: "from-green-500 to-teal-500"
   },
   {
     icon: Package,
     title: "Conversion Friendly",
-    description: "Our designs are optimized to drive engagement and boost conversions.",
+    description: "Our web solutions are optimized to drive engagement and boost conversions.",
     features: ["User Focused", "Performance Driven", "A/B Tested", "Analytics Ready"],
     gradient: "from-orange-500 to-red-500"
   },
   {
     icon: Video,
     title: "Full Solution",
-    description: "From concept to completion, we provide design solutions to cover all your needs.",
-    features: ["End-to-End", "Complete Package", "All Formats", "Ready to Use"],
+    description: "From concept to completion, we provide web development solutions to cover all your needs.",
+    features: ["End-to-End", "Complete Package", "All Frameworks", "Ready to Launch"],
     gradient: "from-violet-500 to-purple-500"
   },
   {
     icon: Code,
     title: "Full Satisfaction",
-    description: "Your satisfaction is our top priority. We'll revise the designs until you're 100% satisfied.",
-    features: ["Unlimited Revisions", "Money Back Guarantee", "Quality Assurance", "Client First"],
+    description: "Your satisfaction is our top priority. We'll iterate on the projects until you're 100% satisfied.",
+    features: ["Unlimited Iterations", "Money Back Guarantee", "Quality Assurance", "Client First"],
     gradient: "from-amber-500 to-orange-500"
   }
 ];
@@ -122,7 +122,7 @@ export default function ServicesSection() {
               Membership Benefits
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Our membership comes with the promise of endless creativity and dedicated support.
+              Our membership comes with the promise of endless innovation and dedicated support.
             </p>
           </motion.div>
 
